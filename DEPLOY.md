@@ -1,8 +1,15 @@
 # DEPLOY — go-live checklist
 
-Order matters. Steps marked **[Claus]** need your accounts/logins; everything else is done.
+## ✅ DONE 2026-09-27: Live på GitHub Pages
 
-## 1. Domain **[Claus]**
+- **Live URL: https://mohnsen12.github.io/protein-for-pennies/** (gratis, auto-deploy)
+- Repo: `github.com/mohnsen12/protein-for-pennies` — push til `main` = deploy
+  (GitHub Action: static export m. basePath `/protein-for-pennies`)
+- Ønskes kortere URL senere: tilføj domæne (trin 1) i Pages-settings, eller
+  flyt hosting til Vercel (forbind repo'et) når paywall-fasen starter — Vercel
+  kræver at `output: "export"`/`GITHUB_PAGES` ikke er sat (håndteres af config).
+
+## 1. Domain **[Claus]** (valgfrit nu, nødvendigt før betalingsmur-ads)
 Buy the domain (~$10/year at Namecheap/Porkbun/Cloudflare). Candidates in order:
 1. `proteinforpennies.com` (first choice — matches brand)
 2. `proteinforpennies.net`

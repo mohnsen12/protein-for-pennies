@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# env — never commit keys
+.env*.local
+.env
+
+# misc
+.DS_Store
+*.tsbuildinfo
+npm-debug.log*
+
+# pipeline scratch
+pipeline/_output/
+_imgtest.json
+pipeline/_gen*.log
